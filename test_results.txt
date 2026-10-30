@@ -1,0 +1,43 @@
+
+WEEK 2 - PYTHON DEBUGGING PROJECT
+TEST RESULTS
+
+Project: Student Marks Calculator
+Python Version: 3.13
+
+TEST CASE 1: Valid Input
+Student Name: Kavana
+Marks: 80 90 70
+Expected Average: 80.0
+Expected Grade: B
+Status: PASSED (verified)
+
+TEST CASE 2: Invalid Numeric Input
+Marks: 80 abc 70
+Expected: Error message for invalid marks
+Status: Pending
+
+TEST CASE 3: Empty Marks
+Input: No marks entered
+Expected: Error message
+Status: Pending
+
+TEST CASE 4: Marks Above 100
+Marks: 120 80 70
+Expected: Error message
+Status: Pending
+
+TEST CASE 5: Negative Marks
+Marks: -10 80 70
+Expected: Error message
+Status: Pending
+
+TEST CASE 6: Empty Student Name
+Input: No student name entered
+Expected: Error message
+Status: Pending
+
+CONCLUSION:
+The valid input test was successful.
+The remaining test cases must be executed
+to verify the program's error handling.

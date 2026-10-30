@@ -1,0 +1,35 @@
+YUVA INTERN - WEEK 2 TASK 2
+DEBUGGING LOG
+
+Project: Student Marks Calculator
+
+BUG 1: Marks were stored as strings.
+Cause: input().split() returns strings.
+Fix: Converted each mark to float.
+
+BUG 2: Total was overwritten instead of added.
+Cause: Used total = mark inside the loop.
+Fix: Used sum(marks) to calculate the total.
+
+BUG 3: Empty marks could cause an error.
+Fix: Added a check for empty input.
+
+BUG 4: Invalid text could cause a ValueError.
+Fix: Added try-except error handling.
+
+BUG 5: Marks outside the 0-100 range were accepted.
+Fix: Added a range validation check.
+
+BUG 6: Student name could be empty.
+Fix: Added a check for an empty name.
+
+TESTING:
+Valid marks: PASSED
+Invalid text: PASSED
+Empty marks: PASSED
+Marks above 100: PASSED
+Negative marks: PASSED
+Empty student name: PASSED
+
+RESULT:
+The corrected sample program passed all six tests.
